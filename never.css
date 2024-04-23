@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw
+    
+}
+.poga{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    font-size: 44px;
+    font-weight: bolder;
+    border: none;
+}
+.poga:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.poga:active{
+    background-color: indigo;
+}
